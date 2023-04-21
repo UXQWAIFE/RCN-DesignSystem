@@ -1,0 +1,96 @@
+.rcn-html {
+    font-family: $rcn-semantic-typography-text-component-default-body-fontfamily;
+    font-weight: $rcn-semantic-typography-text-component-default-body-fontweight;
+    font-size: $rcn-semantic-typography-text-component-default-body-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-body-lineheight;
+    color: $rcn-semantic-color-static-text_and_icon-onstandard;
+}
+
+.rcn-quote {
+    font-weight: $rcn-semantic-typography-text-editorial-default-quote-fontweight;
+}
+
+.rcn-quote  {
+    line-height: $rcn-semantic-typography-text-editorial-default-quote-lineheight;
+}
+
+.rcn-p {
+    line-height: $rcn-semantic-typography-text-editorial-default-body-lineheight;
+    margin-bottom: $rcn-semantic-margin-vertical-paragraph;
+}
+
+.rcn-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.rcn-h1 {
+    font-size: $rcn-semantic-typography-text-component-default-h1-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h1-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h1bis {
+    font-size: $rcn-semantic-typography-text-component-default-h1bis-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h1bis-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h2 {
+    font-size: $rcn-semantic-typography-text-component-default-h2-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h2-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h3 {
+    font-size: $rcn-semantic-typography-text-component-default-h3-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h3-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h4 {
+    font-size: $rcn-semantic-typography-text-component-default-h4-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h4-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h5 {
+    font-size: $rcn-semantic-typography-text-component-default-h5-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h5-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+
+.rcn-h6 {
+    font-size: $rcn-semantic-typography-text-component-default-h6-fontsize;
+    line-height: $rcn-semantic-typography-text-component-default-title-lineheight;
+    font-weight: $rcn-semantic-typography-text-component-default-h6-fontweight;
+  &--edito {
+      line-height: $rcn-semantic-typography-text-editorial-default-title-lineheight;
+      margin-bottom: $rcn-semantic-margin-vertical-title;
+  }
+}
+

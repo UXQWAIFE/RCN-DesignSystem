@@ -1,0 +1,17 @@
+.rcn-captcha {
+    gap: $rcn-semantic-gap-vertical-500;
+    display: flex;
+    flex-direction: column;
+  &__image {
+      background-color: $rcn-semantic-color-static-background-standard;
+      min-width: 240px;
+      min-height: 80px;
+  }
+  &__inputZone {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+  }
+}
+
