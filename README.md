@@ -20,31 +20,31 @@ Ensuite il vous suffit de télécharger ce repo et de l'installer directement da
 ### Chorus
 
 Css : 
-`<link rel="stylesheet" href="assets/styles-Chorus.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Chorus.css">`
 
 Scss : 
-`<link rel="stylesheet" href="assets/styles-Chorus.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Chorus.css">`
 
 ### Chorus Pro
 
 Css : 
-`<link rel="stylesheet" href="assets/styles-ChorusPro.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-ChorusPro.css">`
 
 Scss : 
-`<link rel="stylesheet" href="assets/styles-ChorusPro.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-ChorusPro.css">`
 
 ### Piste
 
 Css : 
-`<link rel="stylesheet" href="assets/styles-Piste.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Piste.css">`
 
 Scss : 
-`<link rel="stylesheet" href="assets/styles-Piste.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Piste.css">`
 
 ### Qualification
 
 Css : 
-`<link rel="stylesheet" href="assets/styles-Qualification.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css">`
 
 Scss : 
-`<link rel="stylesheet" href="assets/styles-Qualification.css">`
+`<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css">`
