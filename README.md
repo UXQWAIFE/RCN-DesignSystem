@@ -11,7 +11,7 @@ Vous trouverez l’exhausitivité des valeurs de ces design tokens au sein d’u
 
 ## Utilisation 
 
-Pour utilisé ces fichiers vous n'avez pas besoin d'appeler chaque élément un à un. 
+Pour utiliser ces fichiers, vous n'avez pas besoin d'appeler chaque élément un à un. 
 
 Il faut pour ça savoir sous quelle marque produit vous êtes : Chorus / Chorus Pro / Piste / Qualification
 
