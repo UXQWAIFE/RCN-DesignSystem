@@ -3,6 +3,6 @@ Voici les fichiers CSS des Composants du Design System du Référentiel de Conce
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
 @import url("Core/core-Chorus.css");
-@import url("Semantic/semantic-Chorus.css");
+@import url("Semantic/semantic.css");
 @import url("Component/index.css");
 
