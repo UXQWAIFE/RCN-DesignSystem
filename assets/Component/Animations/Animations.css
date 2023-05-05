@@ -1,40 +1,14 @@
-loader_animation_grow-shrink {
-  "@keyframes grow-shrink {: undefined;
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
-
-  0% { {
-  undefined: undefined;
-}
-
-    transform: scale(1) {
-  : undefined;
-}
-
-    opacity: 1 {
-  : undefined;
-}
-
-  } {
-  undefined: undefined;
-}
-
-  50% { {
-  undefined: undefined;
-}
-
-    transform: scale(0.5) {
-  : undefined;
-}
-
-    opacity: 0.5 {
-  : undefined;
-}
-
-  100% { {
-  undefined: undefined;
-}
-
-}" {
-  undefined: undefined;
-}
-
