@@ -87,11 +87,9 @@
   }
   &__closeIcon {
       align-self: flex-start;
-    &: {
-      &:before {
-          content: "\e91e";
-      }
-    }
+  }
+  &__closeIcon::before {
+      content: "\e91e";
   }
   &--banner {
       border-radius: 0;

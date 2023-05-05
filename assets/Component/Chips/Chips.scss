@@ -13,12 +13,10 @@
     }
       border: none;
   }
+  &__icon::before {
+      content: "\e915";
+  }
   &__icon {
-    &: {
-      &:before {
-          content: "\e915";
-      }
-    }
       order: 2;
   }
 }

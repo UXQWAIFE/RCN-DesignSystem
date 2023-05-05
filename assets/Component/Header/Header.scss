@@ -52,12 +52,10 @@
   &__searchbar {
       order: 2;
   }
+  &__menuButton::before {
+      content: "\e923";
+  }
   &__menuButton {
-    &: {
-      &:before {
-          content: "\e923";
-      }
-    }
       font-size: $rcn-semantic-typography-icon-rcn_icon-h6-fontsize;
   }
 }

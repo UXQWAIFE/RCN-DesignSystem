@@ -12,20 +12,16 @@
   }
   &__icon {
       text-decoration: $rcn-semantic-typography-icon-rcn_icon-body-textdecoration;
+    &--external::before {
+        content: "\e910";
+    }
     &--external {
-      &: {
-        &:before {
-            content: "\e910";
-        }
-      }
         order: 2;
     }
+    &--download::before {
+        content: "\e918";
+    }
     &--download {
-      &: {
-        &:before {
-            content: "\e918";
-        }
-      }
         order: -1;
     }
   }

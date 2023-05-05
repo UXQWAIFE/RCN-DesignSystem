@@ -44,12 +44,8 @@
       gap: $rcn-semantic-gap-horizontal-200;
       align-self: flex-end;
   }
-  &__closeIcon {
-    &: {
-      &:before {
-          content: "\e915";
-      }
-    }
+  &__closeIcon::before {
+      content: "\e915";
   }
   &__topOverlay {
       height: 0px;

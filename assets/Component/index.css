@@ -2,6 +2,7 @@
 Voici les fichiers CSS des Composants du Design System du Référentiel de Conception Numérique
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
+/*lot1*/
 @import url("BackToTop/BackToTop.css");
 @import url("Breadcrumb/Breadcrumb.css");
 @import url("Button/Button.css");
@@ -16,3 +17,10 @@ Pour voir les règles d'intégrations des éléments <html> veuillez vous referr
 @import url("Notification/Notification.css");
 @import url("Tooltip/Tooltip.css");
 @import url("Typography/Typography.css");
+/*lot2*/
+@import url("Accordions/Accordions.css");
+@import url("Animations/Animations.css");
+@import url("Header/Header.css");
+@import url("Footer/Footer.css");
+@import url("ContainersGlobaux/ContainersGlobaux.css");
+@import url("Tabs/Tabs.css");

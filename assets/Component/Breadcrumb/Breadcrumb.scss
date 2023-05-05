@@ -19,12 +19,10 @@
       flex-wrap: nowrap;
       align-items: center;
   }
+  &__chevron::before {
+      content: "\e92c";
+  }
   &__chevron {
-    &: {
-      &:before {
-          content: "\e92c";
-      }
-    }
       transform: rotate(45deg);
   }
   &__button {

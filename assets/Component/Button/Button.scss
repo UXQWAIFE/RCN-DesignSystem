@@ -1,4 +1,4 @@
--rcn-button {
+.rcn-button {
     padding: $rcn-semantic-padding-vertical-200 $rcn-semantic-padding-horizontal-300;
     border-radius: $rcn-semantic-borderradius-200;
     border: $rcn-semantic-borderwidth-100 solid;
@@ -37,18 +37,18 @@
   }
 }
 
--rcn-iconButton {
+.rcn-iconButton {
     color: $rcn-semantic-color-interaction-text_and_icon-default-primary;
   &:hover {
       color: $rcn-semantic-color-interaction-text_and_icon-hover-primary;
   }
 }
 
--rcn-iconButton[disabled]  {
+.rcn-iconButton[disabled]  {
     color: $rcn-semantic-color-interaction-text_and_icon-disabled;
 }
 
--rcn-toggle {
+.rcn-toggle {
     display: flex;
     align-items: center;
     padding: $rcn-semantic-padding-horizontal-50;
@@ -76,7 +76,7 @@
       border-color: $rcn-semantic-color-interaction-border-disabled-standard;
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;
   }
-  &--on[disabled]  -rcn-toggle {
+  &--on[disabled]  .rcn-toggle {
     &__indicator {
         background-color: $rcn-semantic-color-interaction-background-default-standard;
         border-color: $rcn-semantic-color-interaction-border-disabled-standard;
@@ -84,7 +84,7 @@
   }
 }
 
--rcn-toggle[selected] {
+.rcn-toggle[selected] {
     background-color: $rcn-semantic-color-interaction-background-default-primary;
   &:hover {
       background-color: $rcn-semantic-color-interaction-background-hover-primary;
@@ -92,26 +92,26 @@
   }
 }
 
--rcn-toggle[selected] -rcn-toggle {
+.rcn-toggle[selected] .rcn-toggle {
   &__indicator {
       order: 2;
   }
 }
 
--rcn-toggle[disabled]  {
+.rcn-toggle[disabled]  {
     background-color: $rcn-semantic-color-interaction-background-disabled-button_toggle_off;
     border-color: $rcn-semantic-color-interaction-border-disabled-standard;
     color: $rcn-semantic-color-interaction-text_and_icon-disabled;
 }
 
--rcn-toggle[disabled]  -rcn-toggle {
+.rcn-toggle[disabled]  .rcn-toggle {
   &__indicator {
       background-color: $rcn-semantic-color-interaction-background-disabled-standard;
       border-color: $rcn-semantic-color-interaction-border-disabled-standard;
   }
 }
 
--rcn-buttonGroup {
+.rcn-buttonGroup {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

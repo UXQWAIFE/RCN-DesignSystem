@@ -2,6 +2,7 @@
 Voici les fichiers.scss des Composants du Design System du Référentiel de Conception Numérique
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
+/*lot1*/
 @import "BackToTop/BackToTop.scss";
 @import "Breadcrumb/Breadcrumb.scss";
 @import "Button/Button.scss";
@@ -16,3 +17,10 @@ Pour voir les règles d'intégrations des éléments <html> veuillez vous referr
 @import "Notification/Notification.scss";
 @import "Tooltip/Tooltip.scss";
 @import "Typography/Typography.scss";
+/*lot2*/
+@import "Accordions/Accordions.scss";
+@import "Animations/Animations.scss";
+@import "Header/Header.scss";
+@import "Footer/Footer.scss";
+@import "ContainersGlobaux/ContainersGlobaux.scss";
+@import "Tabs/Tabs.scss";

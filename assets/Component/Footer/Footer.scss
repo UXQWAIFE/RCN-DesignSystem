@@ -96,10 +96,10 @@
   &__mendatoryLegalLink {
       padding-right: $rcn-semantic-padding-horizontal-300;
       border-right: $rcn-semantic-borderwidth-100 solid $rcn-semantic-color-static-border-footer_element_divider;
-      color: color-interaction-text_and_icon-dsfr_light;
+      color: $color-interaction-text_and_icon-dsfr_light;
       text-decoration: none;
     &:hover {
-        color: color-interaction-text_and_icon-dsfr_light;
+        color: $color-interaction-text_and_icon-dsfr_light;
         text-decoration: underline;
     }
   }

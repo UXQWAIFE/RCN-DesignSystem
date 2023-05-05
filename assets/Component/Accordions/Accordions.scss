@@ -28,21 +28,13 @@
         border-top: $rcn-semantic-color-interaction-border-hover-selected;
     }
     .rcn-accordionSystem {
-      &__headingIcon {
-        &: {
-          &:before {
-              content: "\e92c";
-          }
-        }
+      &__headingIcon::before {
+          content: "\e92c";
       }
     }
   }
-  &__headingIcon {
-    &: {
-      &:before {
-          content: "\e92f";
-      }
-    }
+  &__headingIcon::before {
+      content: "\e92f";
   }
   &__content {
       padding-left: $rcn-semantic-padding-horizontal-400;
