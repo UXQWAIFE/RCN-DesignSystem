@@ -34,11 +34,11 @@
       border-top: $rcn-semantic-borderwidth-300 solid $rcn-semantic-color-interaction-border-default-selected;
       border-bottom-color: $rcn-semantic-color-interaction-border-default-onprimary;
       font-weight: $rcn-semantic-typography-text-component-default-selected-fontweight;
-    &:hover {
-        border-top-color: $rcn-semantic-color-interaction-border-hover-selected;
-        border-bottom-color: $rcn-semantic-color-interaction-text_and_icon-hover-selected;
-        color: $rcn-semantic-color-interaction-text_and_icon-hover-selected;
-    }
+  }
+  &__label[aria-selected='true']:hover {
+      border-top-color: $rcn-semantic-color-interaction-border-hover-selected;
+      border-bottom-color: $rcn-semantic-color-interaction-text_and_icon-hover-selected;
+      color: $rcn-semantic-color-interaction-text_and_icon-hover-selected;
   }
   &__label[disabled] {
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;

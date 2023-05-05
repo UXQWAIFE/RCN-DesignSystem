@@ -15,7 +15,7 @@
         border-color: $rcn-semantic-color-interaction-border-hover-primary;
     }
   }
-  &--primary[disabled]  {
+  &--primary[disabled] {
       background-color: $rcn-semantic-color-interaction-background-disabled-primary;
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;
       border-color: $rcn-semantic-color-interaction-border-disabled;
@@ -30,7 +30,7 @@
         border-color: $rcn-semantic-color-interaction-border-hover-primary;
     }
   }
-  &--secondary[disabled]  {
+  &--secondary[disabled] {
       border-color: $rcn-semantic-color-interaction-border-disabled;
       background-color: $rcn-semantic-color-interaction-background-disabled-button_secondary;
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;
@@ -38,13 +38,10 @@
 }
 
 .rcn-iconButton {
-    color: $rcn-semantic-color-interaction-text_and_icon-default-primary;
-  &:hover {
-      color: $rcn-semantic-color-interaction-text_and_icon-hover-primary;
-  }
+    color: $rcn-semantic-color-interaction-text_and_icon-default-onstandard;
 }
 
-.rcn-iconButton[disabled]  {
+.rcn-iconButton[disabled] {
     color: $rcn-semantic-color-interaction-text_and_icon-disabled;
 }
 
@@ -71,43 +68,42 @@
   &:hover {
       background-color: $rcn-semantic-color-interaction-background-hover-button_toggle_off;
   }
-  &--on[disabled]  {
+  &--on[disabled] {
       background-color: $rcn-semantic-color-interaction-background-disabled-button_toggle_on;
       border-color: $rcn-semantic-color-interaction-border-disabled-standard;
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;
-  }
-  &--on[disabled]  .rcn-toggle {
-    &__indicator {
-        background-color: $rcn-semantic-color-interaction-background-default-standard;
-        border-color: $rcn-semantic-color-interaction-border-disabled-standard;
+    .rcn-toggle {
+      &__indicator {
+          background-color: $rcn-semantic-color-interaction-background-default-standard;
+          border-color: $rcn-semantic-color-interaction-border-disabled-standard;
+      }
     }
   }
 }
 
 .rcn-toggle[selected] {
     background-color: $rcn-semantic-color-interaction-background-default-primary;
-  &:hover {
-      background-color: $rcn-semantic-color-interaction-background-hover-primary;
-      border-color: $rcn-semantic-color-interaction-border-hover-primary;
+  .rcn-toggle {
+    &__indicator {
+        order: 2;
+    }
   }
 }
 
-.rcn-toggle[selected] .rcn-toggle {
-  &__indicator {
-      order: 2;
-  }
+.rcn-toggle[selected]:hover {
+    background-color: $rcn-semantic-color-interaction-background-hover-primary;
+    border-color: $rcn-semantic-color-interaction-border-hover-primary;
 }
 
-.rcn-toggle[disabled]  {
+.rcn-toggle[disabled] {
     background-color: $rcn-semantic-color-interaction-background-disabled-button_toggle_off;
     border-color: $rcn-semantic-color-interaction-border-disabled-standard;
     color: $rcn-semantic-color-interaction-text_and_icon-disabled;
-}
-
-.rcn-toggle[disabled]  .rcn-toggle {
-  &__indicator {
-      background-color: $rcn-semantic-color-interaction-background-disabled-standard;
-      border-color: $rcn-semantic-color-interaction-border-disabled-standard;
+  .rcn-toggle {
+    &__indicator {
+        background-color: $rcn-semantic-color-interaction-background-disabled-standard;
+        border-color: $rcn-semantic-color-interaction-border-disabled-standard;
+    }
   }
 }
 
@@ -130,20 +126,20 @@
     }
     &:first-of-type[selected] {
         border-left-color: $rcn-semantic-color-interaction-background-default-buttongroup_button_selected;
-      &:hover {
-          border-left-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
-      }
+    }
+    &:first-of-type[selected]:hover {
+        border-left-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
     }
   }
   &__button[selected] {
       background-color: $rcn-semantic-color-interaction-background-default-buttongroup_button_selected;
       border-left-color: $rcn-semantic-color-interaction-border-default-onprimary;
       color: $rcn-semantic-color-interaction-border-default-onprimary;
-    &:hover {
-        background-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
-        border-top-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
-        border-bottom-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
-    }
+  }
+  &__button[selected]:hover {
+      background-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
+      border-top-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
+      border-bottom-color: $rcn-semantic-color-interaction-background-hover-buttongroup_button_selected;
   }
 }
 

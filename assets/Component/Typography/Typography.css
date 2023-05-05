@@ -8,9 +8,6 @@
 
 .rcn-quote {
   font-weight: var(--rcn-semantic-typography-text-editorial-default-quote-fontweight);
-}
-
-.rcn-quote  {
   line-height: var(--rcn-semantic-typography-text-editorial-default-quote-lineheight);
 }
 

@@ -27,6 +27,7 @@
         order: 1;
     }
       order: 0;
+      flex-grow: 1;
   }
   &__mainNavBanner {
       order: 1;
@@ -51,12 +52,6 @@
   }
   &__searchbar {
       order: 2;
-  }
-  &__menuButton::before {
-      content: "\e923";
-  }
-  &__menuButton {
-      font-size: $rcn-semantic-typography-icon-rcn_icon-h6-fontsize;
   }
 }
 

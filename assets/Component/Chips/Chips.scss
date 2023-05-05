@@ -13,10 +13,10 @@
     }
       border: none;
   }
-  &__icon::before {
-      content: "\e915";
-  }
   &__icon {
+    &::before {
+        content: $rcn-semantic-typography-icon-rcn_icon-close_chips-content;
+    }
       order: 2;
   }
 }

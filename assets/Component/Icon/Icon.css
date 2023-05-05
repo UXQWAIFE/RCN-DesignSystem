@@ -258,15 +258,15 @@
 }
 
 .rcn-icon--mdi-checkbox-marked::before {
-  content: "\e938";
+  content: "\e935";
 }
 
 .rcn-icon--mdi-checkbox-blank-outline::before {
-  content: "\e939";
+  content: "\e936";
 }
 
 .rcn-icon--mdi-radiobox-marked::before {
-  content: "\e93a";
+  content: "\e937";
 }
 
 .rcn-icon--mdi-radiobox-blank::before {

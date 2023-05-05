@@ -45,6 +45,7 @@
 
 .rcn-header__menu {
   order: 0;
+  flex-grow: 1;
 }
 
 .rcn-header__toolsButtonsZone {
@@ -60,13 +61,5 @@
 
 .rcn-header__searchbar {
   order: 2;
-}
-
-.rcn-header__menuButton::before {
-  content: "\e923";
-}
-
-.rcn-header__menuButton {
-  font-size: var(--rcn-semantic-typography-icon-rcn_icon-h6-fontsize);
 }
 

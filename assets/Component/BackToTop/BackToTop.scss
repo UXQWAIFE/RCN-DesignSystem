@@ -13,9 +13,9 @@
   &__icon {
       font-size: $rcn-semantic-typography-icon-rcn_icon-default-fontsize;
       color: $rcn-semantic-color-interaction-text_and_icon-default-onprimary;
-  }
-  &__icon::before {
-      content: "\e928";
+    &::before {
+        content: $rcn-semantic-typography-icon-rcn_icon-up-content;
+    }
   }
   &:hover {
       background-color: $rcn-semantic-color-interaction-background-hover-primary;

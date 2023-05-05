@@ -60,7 +60,7 @@
   color: var(--rcn-semantic-color-static-text_and_icon-dsfr_medium);
 }
 
-.rcn-footer__productBanner-leftZone  {
+.rcn-footer__productBanner-leftZone {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -112,12 +112,12 @@
 .rcn-footer__mendatoryLegalLink {
   padding-right: var(--rcn-semantic-padding-horizontal-300);
   border-right: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-static-border-footer_element_divider);
-  color: var(--color-interaction-text_and_icon-dsfr_light);
+  color: var(--rcn-semantic-color-static-text_and_icon-dsfr_light);
   text-decoration: none;
 }
 
 .rcn-footer__mendatoryLegalLink:hover {
-  color: var(--color-interaction-text_and_icon-dsfr_light);
+  color: var(--rcn-semantic-color-static-text_and_icon-dsfr_light);
   text-decoration: underline;
 }
 

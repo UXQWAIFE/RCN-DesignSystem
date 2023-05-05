@@ -6,8 +6,10 @@
       background-color: $rcn-semantic-color-static-background-tooltip;
       padding: $rcn-semantic-padding-horizontal-200 $rcn-semantic-padding-horizontal-300;
   }
-  &__button::before {
-      content: "\e922";
+  &__button {
+    &::before {
+        content: $rcn-semantic-typography-icon-rcn_icon-information-content;
+    }
   }
   &__triangle {
       background-color: $rcn-semantic-color-static-background-tooltip;
