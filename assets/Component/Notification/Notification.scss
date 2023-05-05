@@ -9,8 +9,16 @@
       background-color: $rcn-semantic-color-feedback-background-error;
       color: $rcn-semantic-color-feedback-text_and_icon-onerror;
     .rcn-notification {
-      &__typeIcon {
-          content: "\e920";
+      &-- {
+        &:before {
+          &__typeIcon {
+            &-- {
+              &:before {
+                  content: "\e920";
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -18,8 +26,16 @@
       background-color: $rcn-semantic-color-feedback-background-information;
       color: $rcn-semantic-color-feedback-text_and_icon-oninformation;
     .rcn-notification {
-      &__typeIcon {
-          content: "\e922";
+      &-- {
+        &:before {
+          &__typeIcon {
+            &-- {
+              &:before {
+                  content: "\e922";
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -27,8 +43,16 @@
       background-color: $rcn-semantic-color-feedback-background-success;
       color: $rcn-semantic-color-feedback-text_and_icon-onsuccess;
     .rcn-notification {
-      &__typeIcon {
-          content: "\e920";
+      &-- {
+        &:before {
+          &__typeIcon {
+            &-- {
+              &:before {
+                  content: "\e920";
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -36,23 +60,38 @@
       background-color: $rcn-semantic-color-feedback-background-warning;
       color: $rcn-semantic-color-feedback-text_and_icon-onwarning;
     .rcn-notification {
-      &__typeIcon {
-          content: "\e91f";
+      &-- {
+        &:before {
+          &__typeIcon {
+            &-- {
+              &:before {
+                  content: "\e91f";
+              }
+            }
+          }
+        }
       }
     }
+  }
+  &__typeIcon {
+      font-size: $rcn-semantic-typography-icon-rcn_icon-h4-fontsize;
   }
   &__textZone {
       display: flex;
       flex-direction: column;
       gap: $rcn-semantic-gap-horizontal-100;
-      width: 100%;
+      flex-grow: 1;
   }
   &__title {
       font-weight: $rcn-semantic-typography-text-component-default-label-fontweight;
   }
   &__closeIcon {
       align-self: flex-start;
-      content: "\e91e";
+    &: {
+      &:before {
+          content: "\e91e";
+      }
+    }
   }
   &--banner {
       border-radius: 0;
@@ -62,12 +101,6 @@
           gap: $rcn-semantic-gap-horizontal-300;
       }
     }
-  }
-}
-
-.rcn-notificationBanner {
-  &__typeIcon {
-      font-size: $rcn-semantic-typography-icon-rcn_icon-h4-fontsize;
   }
 }
 

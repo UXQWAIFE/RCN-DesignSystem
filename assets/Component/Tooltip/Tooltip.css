@@ -6,7 +6,7 @@
   padding: var(--rcn-semantic-padding-horizontal-200) var(--rcn-semantic-padding-horizontal-300);
 }
 
-.rcn-tooltip__button {
+.rcn-tooltip__button::before {
   content: "\e922";
 }
 

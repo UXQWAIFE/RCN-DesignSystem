@@ -68,7 +68,7 @@
       font-size: $rcn-semantic-typography-icon-rcn_icon-h4-fontsize;
   }
   &--selected {
-      border-color: $rcn-semantic-color-interaction-border-default-selected;
+      border-color: rcn.semantic.color.interaction.border.default.selected;
       border-width: $rcn-semantic-borderwidth-300;
     .rcn-card {
       &__title {

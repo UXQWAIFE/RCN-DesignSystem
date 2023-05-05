@@ -1,10 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 17 Apr 2023 09:12:03 GMT
+ * Generated on Fri, 05 May 2023 08:22:17 GMT
  */
 
-:root {
-  --token-name: jsonValue;
+ :root {
   --rcn-semantic-typography-icon-rcn-icon-h6-textdecoration: var(--rcn-core-textdecoration-none);
   --rcn-semantic-typography-icon-rcn-icon-h6-lineheight: var(--rcn-core-lineheight-100)*var(--rcn-core-fontsize-1250r);
   --rcn-semantic-typography-icon-rcn-icon-h6-fontweight: var(--rcn-core-fontweight-400);

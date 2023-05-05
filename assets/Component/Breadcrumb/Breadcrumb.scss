@@ -20,7 +20,11 @@
       align-items: center;
   }
   &__chevron {
-      content: "\e92c";
+    &: {
+      &:before {
+          content: "\e92c";
+      }
+    }
       transform: rotate(45deg);
   }
   &__button {

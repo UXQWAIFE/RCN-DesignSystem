@@ -6,8 +6,8 @@
   border-color: var(--rcn-semantic-color-interaction-border-back_to_top);
   text-align: center;
   position: fixed;
-  bottom: 1.5vw;
-  right: 1.5vw;
+  bottom: 1,5vw;
+  right: 1,5vw;
   width: 3rem;
   height: 3rem;
 }
@@ -15,6 +15,9 @@
 .rcn-backToTop__icon {
   font-size: var(--rcn-semantic-typography-icon-rcn_icon-default-fontsize);
   color: var(--rcn-semantic-color-interaction-text_and_icon-default-onprimary);
+}
+
+.rcn-backToTop__icon::before {
   content: "\e928";
 }
 

@@ -18,13 +18,19 @@
   text-decoration: var(--rcn-semantic-typography-icon-rcn_icon-body-textdecoration);
 }
 
-.rcn-link__icon--external {
+.rcn-link__icon--external::before {
   content: "\e910";
+}
+
+.rcn-link__icon--external {
   order: 2;
 }
 
-.rcn-link__icon--download {
+.rcn-link__icon--download::before {
   content: "\e918";
+}
+
+.rcn-link__icon--download {
   order: -1;
 }
 

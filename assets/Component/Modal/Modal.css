@@ -54,7 +54,7 @@
   align-self: flex-end;
 }
 
-.rcn-modal__closeIcon {
+.rcn-modal__closeIcon::before {
   content: "\e915";
 }
 

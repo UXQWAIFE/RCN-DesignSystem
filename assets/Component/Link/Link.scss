@@ -13,11 +13,19 @@
   &__icon {
       text-decoration: $rcn-semantic-typography-icon-rcn_icon-body-textdecoration;
     &--external {
-        content: "\e910";
+      &: {
+        &:before {
+            content: "\e910";
+        }
+      }
         order: 2;
     }
     &--download {
-        content: "\e918";
+      &: {
+        &:before {
+            content: "\e918";
+        }
+      }
         order: -1;
     }
   }

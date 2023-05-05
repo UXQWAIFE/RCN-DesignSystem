@@ -17,8 +17,11 @@
   background-color: var(--rcn-semantic-color-interaction-background-hover-chips);
 }
 
-.rcn-chips__icon {
+.rcn-chips__icon::before {
   content: "\e915";
+}
+
+.rcn-chips__icon {
   order: 2;
 }
 

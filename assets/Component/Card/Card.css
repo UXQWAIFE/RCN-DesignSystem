@@ -82,7 +82,7 @@
 }
 
 .rcn-card--selected {
-  border-color: var(--rcn-semantic-color-interaction-border-default-selected);
+  border-color: rcn.semantic.color.interaction.border.default.selected;
   border-width: var(--rcn-semantic-borderwidth-300);
 }
 

@@ -45,7 +45,11 @@
       align-self: flex-end;
   }
   &__closeIcon {
-      content: "\e915";
+    &: {
+      &:before {
+          content: "\e915";
+      }
+    }
   }
   &__topOverlay {
       height: 0px;

@@ -23,8 +23,11 @@
   align-items: center;
 }
 
-.rcn-breadcrumb__chevron {
+.rcn-breadcrumb__chevron::before {
   content: "\e92c";
+}
+
+.rcn-breadcrumb__chevron {
   transform: rotate(45deg);
 }
 
