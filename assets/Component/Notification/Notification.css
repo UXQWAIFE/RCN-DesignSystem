@@ -31,20 +31,20 @@
   font-size: var(--rcn-semantic-typography-icon-rcn_icon-h4-fontsize);
 }
 
-.rcn-notification--error .rcn-notification--:before__typeIcon--:before {
-  content: "\e920";
+.rcn-notification--error .rcn-notification__typeIcon::before {
+  content: var(--rcn-semantic-typography-icon-rcn_icon-alert-content);
 }
 
-.rcn-notification--informative .rcn-notification--:before__typeIcon--:before {
-  content: "\e922";
+.rcn-notification--informative .rcn-notification__typeIcon::before {
+  content: var(--rcn-semantic-typography-icon-rcn_icon-information-content);
 }
 
-.rcn-notification--success .rcn-notification--:before__typeIcon--:before {
-  content: "\e920";
+.rcn-notification--success .rcn-notification__typeIcon::before {
+  content: var(--rcn-semantic-typography-icon-rcn_icon-success-content);
 }
 
-.rcn-notification--warning .rcn-notification--:before__typeIcon--:before {
-  content: "\e91f";
+.rcn-notification--warning .rcn-notification__typeIcon::before {
+  content: var(--rcn-semantic-typography-icon-rcn_icon-warning-content);
 }
 
 .rcn-notification__textZone {
@@ -63,7 +63,7 @@
 }
 
 .rcn-notification__closeIcon::before {
-  content: "\e91e";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-close-content);
 }
 
 .rcn-notification--banner {
@@ -74,3 +74,4 @@
   flex-direction: row;
   gap: var(--rcn-semantic-gap-horizontal-300);
 }
+

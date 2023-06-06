@@ -19,7 +19,7 @@
   border-color: var(--rcn-semantic-color-interaction-border-hover-primary);
 }
 
-.rcn-button--primary[disabled]  {
+.rcn-button--primary[disabled] {
   background-color: var(--rcn-semantic-color-interaction-background-disabled-primary);
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
   border-color: var(--rcn-semantic-color-interaction-border-disabled);
@@ -37,21 +37,17 @@
   border-color: var(--rcn-semantic-color-interaction-border-hover-primary);
 }
 
-.rcn-button--secondary[disabled]  {
+.rcn-button--secondary[disabled] {
   border-color: var(--rcn-semantic-color-interaction-border-disabled);
   background-color: var(--rcn-semantic-color-interaction-background-disabled-button_secondary);
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
 }
 
 .rcn-iconButton {
-  color: var(--rcn-semantic-color-interaction-text_and_icon-default-primary);
+  color: var(--rcn-semantic-color-interaction-text_and_icon-default-onstandard);
 }
 
-.rcn-iconButton:hover {
-  color: var(--rcn-semantic-color-interaction-text_and_icon-hover-primary);
-}
-
-.rcn-iconButton[disabled]  {
+.rcn-iconButton[disabled] {
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
 }
 
@@ -96,24 +92,24 @@
   order: 2;
 }
 
-.rcn-toggle[disabled]  {
+.rcn-toggle[disabled] {
   background-color: var(--rcn-semantic-color-interaction-background-disabled-button_toggle_off);
   border-color: var(--rcn-semantic-color-interaction-border-disabled-standard);
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
 }
 
-.rcn-toggle[disabled]  .rcn-toggle__indicator {
+.rcn-toggle[disabled].rcn-toggle__indicator {
   background-color: var(--rcn-semantic-color-interaction-background-disabled-standard);
   border-color: var(--rcn-semantic-color-interaction-border-disabled-standard);
 }
 
-.rcn-toggle--on[disabled]  {
+.rcn-toggle--on[disabled] {
   background-color: var(--rcn-semantic-color-interaction-background-disabled-button_toggle_on);
   border-color: var(--rcn-semantic-color-interaction-border-disabled-standard);
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
 }
 
-.rcn-toggle--on[disabled]  .rcn-toggle__indicator {
+.rcn-toggle--on[disabled].rcn-toggle__indicator {
   background-color: var(--rcn-semantic-color-interaction-background-default-standard);
   border-color: var(--rcn-semantic-color-interaction-border-disabled-standard);
 }

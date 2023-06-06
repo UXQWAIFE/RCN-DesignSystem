@@ -55,7 +55,7 @@
 }
 
 .rcn-modal__closeIcon::before {
-  content: "\e915";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-close-content);
 }
 
 .rcn-modal__topOverlay {

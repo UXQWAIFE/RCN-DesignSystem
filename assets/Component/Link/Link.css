@@ -19,7 +19,7 @@
 }
 
 .rcn-link__icon--external::before {
-  content: "\e910";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-external_link-content);
 }
 
 .rcn-link__icon--external {
@@ -27,7 +27,7 @@
 }
 
 .rcn-link__icon--download::before {
-  content: "\e918";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-download-content);
 }
 
 .rcn-link__icon--download {

@@ -18,7 +18,7 @@
 }
 
 .rcn-backToTop__icon::before {
-  content: "\e928";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-up-content);
 }
 
 .rcn-backToTop:hover {

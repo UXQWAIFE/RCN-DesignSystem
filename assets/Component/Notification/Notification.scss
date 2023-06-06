@@ -9,15 +9,9 @@
       background-color: $rcn-semantic-color-feedback-background-error;
       color: $rcn-semantic-color-feedback-text_and_icon-onerror;
     .rcn-notification {
-      &-- {
-        &:before {
-          &__typeIcon {
-            &-- {
-              &:before {
-                  content: "\e920";
-              }
-            }
-          }
+      &__typeIcon {
+        &::before {
+            content: $rcn-semantic-typography-icon-rcn_icon-alert-content;
         }
       }
     }
@@ -26,15 +20,9 @@
       background-color: $rcn-semantic-color-feedback-background-information;
       color: $rcn-semantic-color-feedback-text_and_icon-oninformation;
     .rcn-notification {
-      &-- {
-        &:before {
-          &__typeIcon {
-            &-- {
-              &:before {
-                  content: "\e922";
-              }
-            }
-          }
+      &__typeIcon {
+        &::before {
+            content: $rcn-semantic-typography-icon-rcn_icon-information-content;
         }
       }
     }
@@ -43,15 +31,9 @@
       background-color: $rcn-semantic-color-feedback-background-success;
       color: $rcn-semantic-color-feedback-text_and_icon-onsuccess;
     .rcn-notification {
-      &-- {
-        &:before {
-          &__typeIcon {
-            &-- {
-              &:before {
-                  content: "\e920";
-              }
-            }
-          }
+      &__typeIcon {
+        &::before {
+            content: $rcn-semantic-typography-icon-rcn_icon-success-content;
         }
       }
     }
@@ -60,15 +42,9 @@
       background-color: $rcn-semantic-color-feedback-background-warning;
       color: $rcn-semantic-color-feedback-text_and_icon-onwarning;
     .rcn-notification {
-      &-- {
-        &:before {
-          &__typeIcon {
-            &-- {
-              &:before {
-                  content: "\e91f";
-              }
-            }
-          }
+      &__typeIcon {
+        &::before {
+            content: $rcn-semantic-typography-icon-rcn_icon-warning-content;
         }
       }
     }
@@ -87,9 +63,9 @@
   }
   &__closeIcon {
       align-self: flex-start;
-  }
-  &__closeIcon::before {
-      content: "\e91e";
+    &::before {
+        content: $rcn-semantic-typography-icon-rcn_icon-close-content;
+    }
   }
   &--banner {
       border-radius: 0;

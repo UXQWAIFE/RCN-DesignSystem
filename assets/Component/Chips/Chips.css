@@ -18,7 +18,7 @@
 }
 
 .rcn-chips__icon::before {
-  content: "\e915";
+  content: var(--rcn-semantic-typography-icon-rcn_icon-close_chips-content);
 }
 
 .rcn-chips__icon {
