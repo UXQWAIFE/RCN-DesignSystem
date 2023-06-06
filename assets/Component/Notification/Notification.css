@@ -63,7 +63,7 @@
 }
 
 .rcn-notification__closeIcon::before {
-  content: var(--rcn-semantic-typography-icon-rcn_icon-close) -content;
+  content: var(--rcn-semantic-typography-icon-rcn_icon-close-content);
 }
 
 .rcn-notification--banner {

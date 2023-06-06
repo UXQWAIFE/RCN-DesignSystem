@@ -28,7 +28,7 @@
   }
   &__mandatoryAsterisk {
     &::before {
-        content: *;
+        content: "*";
         font-size: $rcn-semantic-typography-text-component-default-h6-fontsize;
         color: $rcn-semantic-color-feedback-text_and_icon-error;
     }

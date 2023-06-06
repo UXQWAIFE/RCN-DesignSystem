@@ -64,7 +64,7 @@
   &__closeIcon {
       align-self: flex-start;
     &::before {
-        content: $rcn-semantic-typography-icon-rcn_icon-close -content;
+        content: $rcn-semantic-typography-icon-rcn_icon-close-content;
     }
   }
   &--banner {

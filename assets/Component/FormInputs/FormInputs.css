@@ -17,7 +17,7 @@
 }
 
 .rcn-inputFieldBloc__mandatoryAsterisk::before {
-  content: *;
+  content: "*";
   font-size: var(--rcn-semantic-typography-text-component-default-h6-fontsize);
   color: var(--rcn-semantic-color-feedback-text_and_icon-error);
 }
