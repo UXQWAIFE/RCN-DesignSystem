@@ -1,6 +1,7 @@
 .rcn-card {
   border-radius: var(--rcn-semantic-borderradius-200);
   border-width: var(--rcn-semantic-borderwidth-100);
+  border-style: solid;
   display: flex;
   border-color: var(--rcn-semantic-color-static-border-standard);
   background-color: var(--rcn-semantic-color-static-background-standard);
