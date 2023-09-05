@@ -63,17 +63,17 @@
   }
 }
 @media (max-width: 320px) {
-  .rcn-XSgridMargins {
+  .rcn-gridMargins {
     padding-right: var(--rcn-semantic-padding-horizontal-500);
     padding-left: var(--rcn-semantic-padding-horizontal-500);
   }
 
-  .rcn-XSgridMargins--menu {
+  .rcn-gridMargins--menu {
     padding-right: var(--rcn-semantic-padding-horizontal-500);
     padding-left: var(--rcn-semantic-padding-horizontal-500);
   }
 
-  .rcn-XSgrid {
+  .rcn-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: var(--rcn-semantic-gap-horizontal-400);
   }
