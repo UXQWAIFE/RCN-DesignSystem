@@ -1,0 +1,75 @@
+/* 
+Voici les fichiers.sscss des Composants du Design System du Référentiel de Conception Numérique
+Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
+*/
+/*fondamentaux*/
+@import "typography/typography.scss";/*lot1*/
+@import "icon/icon.scss";/*lot1*/
+@import "globalcontainers/globalcontainers.scss";/*lot1*/
+@import "link/link.scss";/*lot1*/
+@import "grid/grid.scss";/*lot4*/
+@import "animations/animations.scss";/*lot2*/
+/*composants*/
+@import "forminputs/forminputs.scss";/*lot3*/
+@import "breadcrumb/breadcrumb.scss";/*lot1*/
+@import "button/button.scss";/*lot1*/
+@import "backtotop/backtotop.scss";/*lot1*/
+@import "captcha/captcha.scss";/*lot1*/
+@import "chips/chips.scss";/*lot1*/
+@import "loader/loader.scss";/*lot1*/
+@import "menu/menu.scss";/* lot 4 */
+/*modules*/
+@import "actionsbanner/actionsbanner.scss";/*lot4*/
+@import "notification/notification.scss";/*lot1*/
+@import "tooltip/tooltip.scss";/*lot1*/
+@import "accordions/accordions.scss";/*lot2*/
+@import "tabs/tabs.scss";/*lot2*/
+@import "card/card.scss";/*lot1*/
+@import "modal/modal.scss";/*lot1*/
+@import "pagination/pagination.scss";/* lot 4 */
+@import "stepper/stepper.scss";/* lot 4 */
+@import "header/header.scss";/*lot2*/
+@import "footer/footer.scss";/*lot2*/
+@import "footerlanguageandversionbanner/footerlanguageandversionbanner.scss";/* lot 5*/
+
+/* Reset */ 
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
