@@ -1,38 +1,36 @@
 /* 
-Voici les fichiers.scss des Composants du Design System du Référentiel de Conception Numérique
+Voici les fichiers.sscss des Composants du Design System du Référentiel de Conception Numérique
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
-
-/*Fondamentaux*/
-@import "Typography/Typography.css";/*lot1*/
-@import "Icon/Icon.css";/*lot1*/
-@import "GlobalContainers/GlobalContainers.css";/*lot1*/
-@import "Link/Link.css";/*lot1*/
-@import "Grid/Grid.css";/*lot4*/
-@import "Animations/Animations.css";/*lot2*/
-/*Composants*/
-@import "FormInputs/FormInputs.css";/*lot3*/
-@import "Breadcrumb/Breadcrumb.css";/*lot1*/
-@import "Button/Button.css";/*lot1*/
-@import "BackToTop/BackToTop.css";/*lot1*/
-@import "Captcha/Captcha.css";/*lot1*/
-@import "Chips/Chips.css";/*lot1*/
-@import "Loader/Loader.css";/*lot1*/
-@import "Menu/Menu.css";/* Lot 4 */
-/*Modules*/
-@import "ActionsBanner/ActionsBanner.css";/*lot4*/
-@import "Notification/Notification.css";/*lot1*/
-@import "Tooltip/Tooltip.css";/*lot1*/
-@import "Accordions/Accordions.css";/*lot2*/
-@import "Tabs/Tabs.css";/*lot2*/
-@import "Card/Card.css";/*lot1*/
-@import "Modal/Modal.css";/*lot1*/
-@import "Pagination/Pagination.css";/* Lot 4 */
-@import "Stepper/Stepper.css";/* Lot 4 */
-@import "Header/Header.css";/*lot2*/
-@import "Footer/Footer.css";/*lot2*/
-
-
+/*fondamentaux*/
+@import "typography/typography.scss";/*lot1*/
+@import "icon/icon.scss";/*lot1*/
+@import "globalcontainers/globalcontainers.scss";/*lot1*/
+@import "link/link.scss";/*lot1*/
+@import "grid/grid.scss";/*lot4*/
+@import "animations/animations.scss";/*lot2*/
+/*composants*/
+@import "forminputs/forminputs.scss";/*lot3*/
+@import "breadcrumb/breadcrumb.scss";/*lot1*/
+@import "button/button.scss";/*lot1*/
+@import "backtotop/backtotop.scss";/*lot1*/
+@import "captcha/captcha.scss";/*lot1*/
+@import "chips/chips.scss";/*lot1*/
+@import "loader/loader.scss";/*lot1*/
+@import "menu/menu.scss";/* lot 4 */
+/*modules*/
+@import "actionsbanner/actionsbanner.scss";/*lot4*/
+@import "notification/notification.scss";/*lot1*/
+@import "tooltip/tooltip.scss";/*lot1*/
+@import "accordions/accordions.scss";/*lot2*/
+@import "tabs/tabs.scss";/*lot2*/
+@import "card/card.scss";/*lot1*/
+@import "modal/modal.scss";/*lot1*/
+@import "pagination/pagination.scss";/* lot 4 */
+@import "stepper/stepper.scss";/* lot 4 */
+@import "header/header.scss";/*lot2*/
+@import "footer/footer.scss";/*lot2*/
+@import "footerlanguageandversionbanner/footerlanguageandversionbanner.scss";/* lot 5*/
 
 /* Reset */ 
 
