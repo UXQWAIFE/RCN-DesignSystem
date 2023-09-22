@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../../assets/styles-ChorusPro.css" rel="stylesheet">
+    <link href="../../Asset/Resets.css" rel="stylesheet">
+
+  
+</head>
+<body>
+
+<!-- Template formulaire avec stepper vertical -->
+
+<div class="demo-header">
+	<div class="demo-header__productBanner">Header </div>
+	<div class="demo-header__menu">Menu</div>
+</div>
+
+<div class="rcn-breadcrumb rcn-breadcrumb--onLandingPage rcn-gridMargins">
+	<ul aria-hidden='true' class="rcn-breadcrumb__list sr-only">
+		<div class="rcn-breadcrumb__item">
+			<button class="rcn-breadcrumb__button"> Accueil
+			</button>
+		</div>
+	</ul>
+</div>
+
+	
+<div class="rcn-grid rcn-verticalStepperForm rcn-gridMargins">
+		
+	<h1 class="rcn-h1 rcn-h1--editorial rcn-verticalStepperForm__heading"> Création de facture</h1>
+			
+	<nav class=" rcn-stepper rcn-stepper--navigable rcn-verticalStepperForm__stepper">
+
+		<ol class="rcn-stepper__list">
+
+			<li class="rcn-stepper__step rcn-stepper__step--completed">
+				<div class="rcn-stepper__number">1</div>
+				<a class="rcn-link rcn-stepper__stepTitle" href="section1"> Etape complétée </a>
+			</li>
+			<li class="rcn-stepper__step rcn-stepper__step--current">
+				<div class="rcn-stepper__number">2</div>
+				<a class="rcn-link rcn-stepper__stepTitle" href="section1"> Etape en cours </a>
+			</li>
+
+			<ol class="rcn-stepper__subList">
+
+				<li class="rcn-stepper__step rcn-stepper__step--completed">
+					<div class=" rcn-stepper__indicator"></div>
+					<a class="rcn-link rcn-stepper__stepTitle" href="section1"> Sous étape complétée </a>
+				</li>
+				<li class="rcn-stepper__step rcn-stepper__step--current">
+					<div class="rcn-stepper__indicator"></div>
+					<a class="rcn-link rcn-stepper__stepTitle" href="section1"> Sous étape en cours </a>
+				</li>
+				<li class="rcn-stepper__step">
+					<div class="rcn-stepper__indicator"></div>
+					<a class="rcn-link rcn-stepper__stepTitle" href="section1"> Sous-étape non complétée </a>
+				</li>
+				<li class="rcn-stepper__step rcn-stepper__step--disabled">
+					<div disabled class="rcn-stepper__indicator"></div>
+					<p disabled class="rcn-link rcn-stepper__stepTitle" href="section1"> Sous-étape désactivée </p>
+				</li>
+
+			</ol>
+
+			<li class="rcn-stepper__step">
+				<div class="rcn-stepper__number">3</div>
+				<a class="rcn-link  rcn-stepper__stepTitle" href="section1"> Etape non complétée. Lorem ipsum dolor sit, nt.</a>
+			</li>
+			<li class="rcn-stepper__step rcn-stepper__step--disabled">
+				<div disabled class="rcn-stepper__number">4</div>
+				<p disabled class="rcn-link rcn-stepper__stepTitle" href=""> TEST Etape désactivée Lorem ipsum dolor sit ameam autem distinctio aut beatae </p>
+			</li>
+
+		</ol>
+
+	</nav>
+
+	
+
+	<form class="rcn-verticalStepperForm__form">
+					
+		<p class="rcn-verticalStepperForm__instructions"> 
+			Les champs suivi d'un  
+				<span class="rcn-inputFieldBloc__mandatoryAsterisk"> </span> 
+				sont obligatoires
+		</p>
+
+		<div class="rcn-form__content">
+
+			<!--imput non-obligatoire avec message succes -->
+
+			<div class="rcn-inputFieldBloc">        
+				<label for="x" class="rcn-inputFieldBloc__label">Label input</label>
+				<div class="rcn-inputField" >
+					<input id="x" type="text" col="5" row="5" class="rcn-inputField__input" placeholder="placeholder">
+				</div>
+			</div>
+
+			<!--imput obligatoire avec texte descriptif et message d'erreur -->
+
+			<div class="rcn-inputFieldBloc">
+				<label class="rcn-inputFieldBloc__label">
+					Champ en erreur
+				</label>
+		
+				<div>texte explicatif (si besoin)</div> 
+	
+				<div class="rcn-inputField rcn-inputField--error">
+					<input type="text" class="rcn-inputField__input" required>
+	
+				</div>
+				<div  class="rcn-inputFieldBloc__errorZone" >
+					<i class="rcn-icon rcn-inputFieldBloc__errorIcon"><span class="sr-only"></span></i>
+					Message d'erreur
+				</div> 
+			</div>
+
+			<!--imput obligatoire + erreur -->
+
+			<div class="rcn-inputFieldBloc">
+				<label class="rcn-inputFieldBloc__label">
+					Error<span class="rcn-inputFieldBloc__mandatoryAsterisk"></span>
+				</label>
+		
+				<div>texte explicatif (si besoin)</div> 
+
+				<div class="rcn-inputField rcn-inputField--error">
+					<input type="text" class="rcn-inputField__input" placeholder="Ex : Lorem ipsum sit" required>
+
+				</div>
+				<div  class="rcn-inputFieldBloc__errorZone" >
+					<i class="rcn-inputFieldBloc__errorIcon rcn-icon "><span class="sr-only"></span></i>
+					Message d'erreur
+				</div> 
+			</div>
+
+			<!--input obligatoire + succes  -->
+
+			<div class="rcn-inputFieldBloc">        
+				<label class="rcn-inputFieldBloc__label">Success<span class="rcn-inputFieldBloc__mandatoryAsterisk"></span></label>
+				<div class="rcn-inputField" >
+					<input type="text" value="Valeur champ" class="rcn-inputField__input" placeholder="Ex : Lorem ipsum sit">
+				</div>
+				<div  class="rcn-inputFieldBloc__successZone">
+					<i class="rcn-icon rcn-inputFieldBloc__successIcon"><span class="sr-only"></span></i>
+					Message de succès
+				</div> 
+			</div>
+
+			<!--imput désactivé -->
+
+			<div class="rcn-inputFieldBloc">        
+				<label class="rcn-inputFieldBloc__label">Désactivé</label>
+				<div class="rcn-inputField rcn-inputField--disabled" >
+					<input type="text"  value="Valeur champ désactivé" class="rcn-inputField__input" placeholder="Ex : Lorem ipsum sit">
+
+					<button disabled class="rcn-iconButton rcn-inputField__button">
+						<span class="sr-only"></span>
+						<i class="mdi mdi-heart"></i>
+					</button>
+				</div>
+			</div>
+
+		</div>
+
+		<nav class="rcn-actionsBanner" >
+			<div class="rcn-actionsBanner__secondaryActions">
+				<button class=" rcn-button rcn-button--secondary">Retour</button>
+			</div>
+			<div class="rcn-actionsBanner__primaryActions">
+				<button class=" rcn-button rcn-button--secondary">Enregistrer</button>
+				<button class="rcn-button rcn-button--primary">Suivant</button>
+			</div>
+		</nav>	
+
+	</form>
+
+</div> 
+	
+<footer class="rcn-footer demo-footer">Footer</footer>
+
+
+ <!-- Template formulaire avec stepper horizontal -->
+
+ <div class="demo-header">
+	<div class="demo-header__productBanner">Header</div>
+	<div class="demo-header__menu">Menu</div>
+</div>
+
+<div class="rcn-breadcrumb rcn-breadcrumb--onLandingPage rcn-gridMargins">
+	<ul aria-hidden='true' class="rcn-breadcrumb__list sr-only">
+		<div class="rcn-breadcrumb__item">
+			<button class="rcn-breadcrumb__button"> Accueil
+			</button>
+		</div>
+	</ul>
+</div>
+
+ 
+<div class="rcn-grid rcn-horizontalStepperForm rcn-gridMargins">
+		
+	
+	<h1 class=" rcn-h1 rcn-h1--editorial rcn-horizontalStepperForm__heading"> Titre du formulaire </h1>   
+
+
+	
+	<nav class="rcn-stepper  rcn-stepper--navigable rcn-horizontalStepperForm__stepper">
+
+		<ol class="rcn-stepper__list rcn-stepper__list--horizontal">
+
+			<li class="rcn-stepper__step">
+				<div class="rcn-stepper__number rcn-stepper__number--uncompleted">1</div>
+				
+				<a class="rcn-link rcn-stepper__sectionTitle rcn-stepper__sectionTitle--uncompleted" href="section1"> Etape non complétée navigable </a>
+				
+			</li>
+			<li class="rcn-stepper__step">
+				<div class="rcn-stepper__number rcn-stepper__number--uncompleted ">2</div>				
+				<a class="rcn-link rcn-stepper__sectionTitle rcn-stepper__sectionTitle--uncompleted" href="section1"> Etape non complétée non navigable </a>
+				
+			</li>
+			<li class="rcn-stepper__step">
+				<div disabled class="rcn-stepper__number rcn-stepper__number--disabled">3</div>				
+				<a disabled class="rcn-link rcn-stepper__sectionTitle" href="section1"> Etape désactivée </a>
+				
+			</li>
+
+			<li class="rcn-stepper__step">
+				<div class="rcn-stepper__number rcn-stepper__number--current">4</div>				
+				<a class="rcn-link rcn-stepper__sectionTitle rcn-stepper__sectionTitle--current" href="section1"> Etape en cours navigable </a>
+				
+			</li>
+			<li class="rcn-stepper__step">
+				
+				<div class="rcn-stepper__number rcn-stepper__number--completed">6</div>				
+				<a class="rcn-link rcn-stepper__sectionTitle rcn-stepper__sectionTitle--completed" href="section1"> Etape complétée navigable </a>
+				
+			</li>
+
+		</ol>
+
+
+	</nav>
+
+
+
+
+
+	<form class="rcn-horizontalStepperForm__form">
+					
+				<p class="rcn-horizontalStepperForm__instructions"> 
+					Les champs suivi d'un  
+						<span class="rcn-inputFieldBloc__mandatoryAsterisk"> </span> 
+						sont obligatoires
+				</p>
+
+				<div class="rcn-form__content">
+
+					<!--imput non-obligatoire avec message succes -->
+
+					<div class="rcn-inputFieldBloc">        
+						<label for="x" class="rcn-inputFieldBloc__label">Label input</label>
+						<div class="rcn-inputField" >
+							<input id="x" type="text" col="5" row="5" class="rcn-inputField__input" placeholder="placeholder">
+						</div>
+					</div>
+
+					<!--imput obligatoire avec texte descriptif et message d'erreur -->
+
+					<div class="rcn-inputFieldBloc">
+						<label class="rcn-inputFieldBloc__label">
+							Champ en erreur
+						</label>
+				
+						<div>texte explicatif (si besoin)</div> 
+			
+						<div class="rcn-inputField rcn-inputField--error">
+							<input type="text" class="rcn-inputField__input" required>
+			
+						</div>
+						<div  class="rcn-inputFieldBloc__errorZone" >
+							<i class="rcn-icon rcn-inputFieldBloc__errorIcon"><span class="sr-only"></span></i>
+							Message d'erreur
+						</div> 
+					</div>
+					
+				</div>
+				
+				<nav class="rcn-actionsBanner" >
+					<div class="rcn-actionsBanner__secondaryActions">
+						<button class=" rcn-button rcn-button--secondary">Retour</button>
+					</div>
+					<div class="rcn-actionsBanner__primaryActions">
+						<button class=" rcn-button rcn-button--secondary">Enregistrer</button>
+						<button class="rcn-button rcn-button--primary">Suivant</button>
+					</div>
+				</nav>	
+	</form>
+	
+
+</div>
+ 
+<footer class="rcn-footer demo-footer">Footer</footer>
+
+</body>
+</html>
+
+<footer>
+
+</footer>
