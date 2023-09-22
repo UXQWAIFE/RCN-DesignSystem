@@ -3,35 +3,47 @@ Voici les fichiers CSS des Composants du Design System du Référentiel de Conce
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
 
-/*fondamentaux*/
-@import url("typography/typography.css");/*lot1*/
-@import url("icon/icon.css");/*lot1*/
-@import url("globalcontainers/globalcontainers.css");/*lot1*/
-@import url("link/link.css");/*lot1*/
-@import url("grid/grid.css");/*lot4*/
-@import url("animations/animations.css");/*lot2*/
-/*composants*/
-@import url("forminputs/forminputs.css");/*lot3*/
-@import url("breadcrumb/breadcrumb.css");/*lot1*/
-@import url("button/button.css");/*lot1*/
-@import url("backtotop/backtotop.css");/*lot1*/
-@import url("captcha/captcha.css");/*lot1*/
-@import url("chips/chips.css");/*lot1*/
-@import url("loader/loader.css");/*lot1*/
-@import url("menu/menu.css");/* lot 4 */
-/*modules*/
-@import url("actionsbanner/actionsbanner.css");/*lot4*/
-@import url("notification/notification.css");/*lot1*/
-@import url("tooltip/tooltip.css");/*lot1*/
-@import url("accordions/accordions.css");/*lot2*/
-@import url("tabs/tabs.css");/*lot2*/
-@import url("card/card.css");/*lot1*/
-@import url("modal/modal.css");/*lot1*/
-@import url("pagination/pagination.css");/* lot 4 */
-@import url("stepper/stepper.css");/* lot 4 */
-@import url("header/header.css");/*lot2*/
-@import url("footer/footer.css");/*lot2*/
+/*Fondamentaux*/
+@import url("Typography/Typography.css");/*lot1*/
+@import url("Icon/Icon.css");/*lot1*/
+@import url("GlobalContainers/GlobalContainers.css");/*lot1*/
+@import url("Link/Link.css");/*lot1*/
+@import url("Grid/Grid.css");/*lot4*/
+@import url("Animations/Animations.css");/*lot2*/
+/*Composants*/
+@import url("FormInputs/FormInputs.css");/*lot3*/
+@import url("Breadcrumb/Breadcrumb.css");/*lot1*/
+@import url("Button/Button.css");/*lot1*/
+@import url("BackToTop/BackToTop.css");/*lot1*/
+@import url("Captcha/Captcha.css");/*lot1*/
+@import url("Chips/Chips.css");/*lot1*/
+@import url("Loader/Loader.css");/*lot1*/
+@import url("Menu/Menu.css");/* Lot 4 */
+/*Modules*/
+@import url("ActionsBanner/ActionsBanner.css");/*lot4*/
+@import url("Notification/Notification.css");/*lot1*/
+@import url("Tooltip/Tooltip.css");/*lot1*/
+@import url("Accordions/Accordions.css");/*lot2*/
+@import url("Tabs/Tabs.css");/*lot2*/
+@import url("Card/Card.css");/*lot1*/
+@import url("Modal/Modal.css");/*lot1*/
+@import url("Pagination/Pagination.css");/* Lot 4 */
+@import url("Stepper/Stepper.css");/* Lot 4 */
+@import url("Header/Header.css");/*lot2*/
+@import url("Footer/Footer.css");/*lot2*/
 @import url("footerlanguageandversionbanner/footerlanguageandversionbanner.css");/* lot 5*/
+@import url("connexionmodule/connexionmodule.css");/* lot 5*/
+/* Page */
+@import url("formtemplate/formtemplate.css");/* lot 5*/
+
+
+
+
+
+
+
+
+
 
 
 /* Reset */
