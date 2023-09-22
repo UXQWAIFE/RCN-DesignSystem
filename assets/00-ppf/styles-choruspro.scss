@@ -2,7 +2,7 @@
 Voici les fichiers.scss des Composants du Design System du Référentiel de Conception Numérique pour le produit Chorus
 Pour voir les règles d'intégrations des éléments <html> veuillez vous referrer au https://aife.economie.gouv.fr/referentiel/
 */
-@import "resets.css";
+@import "resets.scss";
 @import "core/core_choruspro.scss";
 @import "semantic/semantictokens.scss";
-@import "component/index.scss";
+@import "propertytoken/index.scss";
