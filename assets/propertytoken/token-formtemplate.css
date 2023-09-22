@@ -1,5 +1,5 @@
 :root{
---rcn-verticalStepperForm-grid-template-areas: ". . . . formHeading formHeading formHeading formHeading formHeading formHeading formHeading formHeading stepper stepper stepper . form form form form form form form form";
+--rcn-verticalStepperForm-grid-template-areas: ". . . . heading heading heading heading heading heading heading heading stepper stepper stepper . form form form form form form form form";
 --rcn-verticalStepperForm__heading-display: flex;
 --rcn-verticalStepperForm__heading-justify-content: center;
 --rcn-verticalStepperForm__heading-grid-area: heading;
