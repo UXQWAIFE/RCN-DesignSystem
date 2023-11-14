@@ -52,9 +52,9 @@ Ensuite il vous suffit de télécharger ce repo et de l'installer directement da
 
 | Lot       | Status  | Versions   | Description                |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| Lot 1     | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.1.0+-grey.svg)  | **Composants :** backtotop / breadcrumb / Button / captcha / card / chips / Header / Icon / Link / loader / Modal / notification / tooltip / typography |
-| Lot 2     | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.2.3+-grey.svg)  | **Composants :** Accordions / Footer / Tabs |
-| Lot 3     | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.3.1+-grey.svg)  | **Composants :** FormInputs |
-| Lot 4     | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.4.2+-grey.svg)  | **Composants :** Menu / Pagination / Stepper |
-| Lot 5     | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.5.1+-grey.svg)  | **Composants :** ConnexionModule / FooterLanguageAndVersionBanner / formTemplate |
-| Lot 6     | [Static Badge](https://img.shields.io/badge/Pending-abb8df.svg) |   | **Composants :** DataTable |
+| Lot 1     | [Static Badge]( https://img.shields.io/badge/just/Done-8acdb0.svg) | [Static Badge]( https://img.shields.io/badge/just/v0.1.0+-grey.svg)  | **Composants :** backtotop / breadcrumb / Button / captcha / card / chips / Header / Icon / Link / loader / Modal / notification / tooltip / typography |
+| Lot 2     | [Static Badge]( https://img.shields.io/badge/just/Done-8acdb0.svg) | [Static Badge]( https://img.shields.io/badge/just/v0.2.3+-grey.svg)  | **Composants :** Accordions / Footer / Tabs |
+| Lot 3     | [Static Badge]( https://img.shields.io/badge/just/Done-8acdb0.svg) | [Static Badge]( https://img.shields.io/badge/just/v0.3.1+-grey.svg)  | **Composants :** FormInputs |
+| Lot 4     | [Static Badge]( https://img.shields.io/badge/just/Done-8acdb0.svg) | [Static Badge]( https://img.shields.io/badge/just/v0.4.2+-grey.svg)  | **Composants :** Menu / Pagination / Stepper |
+| Lot 5     | [Static Badge]( https://img.shields.io/badge/just/Done-8acdb0.svg) | [Static Badge]( https://img.shields.io/badge/just/v0.5.1+-grey.svg)  | **Composants :** ConnexionModule / FooterLanguageAndVersionBanner / formTemplate |
+| Lot 6     | [Static Badge]( https://img.shields.io/badge/just/Pending-abb8df.svg) |   | **Composants :** DataTable |
