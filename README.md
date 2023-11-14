@@ -8,7 +8,7 @@ La fiche design tokens sera complétée prochainement. En cas de difficulté dan
 
 ## Roadmap
 
-- Additional browser support ![Static Badge](https://img.shields.io/badge/:Done-v0.1.0+)
+- Additional browser support ![Static Badge](https://img.shields.io/badge/Done-v0.1.0+-green.svg)
 - Add more integrations
 
 
