@@ -6,11 +6,6 @@ Respecter le RCN implique l’utilisation de ces property tokens.
 
 La fiche design tokens sera complétée prochainement. En cas de difficulté dans l’utilisation de ces tokens veuillez contacter l’Equipe UX et Qualité.
 
-## Roadmap
-
-- Additional browser support ![Static Badge](https://img.shields.io/badge/Done-v0.1.0+-8acdb0.svg)
-- Add more integrations
-
 
 ## Utilisation 
 
@@ -51,3 +46,15 @@ Ensuite il vous suffit de télécharger ce repo et de l'installer directement da
 <!-- OR -->
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css"><!--SCSS-->
 ```
+
+
+## Roadmap
+
+| Lot | Status  | Version   | Description                |
+| :-------- | :------- | :------------------------- |
+| Lot 1 | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.1.0+-grey.svg)  | **Composants :** backtotop / breadcrumb / Button / captcha / card / chips / Header / Icon / Link / loader / Modal / notification / tooltip / typography |
+| Lot 2 | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.2.3+-grey.svg)  | **Composants :** Accordions / Footer / Tabs |
+| Lot 3 | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.3.1+-grey.svg)  | **Composants :** FormInputs |
+| Lot 4 | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.4.2+-grey.svg)  | **Composants :** Menu / Pagination / Stepper |
+| Lot 5 | [Static Badge](https://img.shields.io/badge/Done-8acdb0.svg) | [Static Badge](https://img.shields.io/badge/v0.5.1+-grey.svg)  | **Composants :** ConnexionModule / FooterLanguageAndVersionBanner / formTemplate |
+| Lot 6 | [Static Badge](https://img.shields.io/badge/Pending-abb8df.svg) |   | **Composants :** DataTable |
