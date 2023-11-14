@@ -2,12 +2,9 @@
  
 Un jeton de conception (design token en anglais) est une référence unique qui stocke un ou plusieurs attributs visuels liés aux interfaces utilisateurs. Ces jetons sont préférés aux valeurs brutes pour des questions d’évolutivité, de maintenance et de cohérence entre les différents services applicatifs AIFE.
 
-Certains design tokens sont déjà renseignés au sein des fiches du référentiel dans l’onglet Design. Vous trouverez l’exhaustivité des valeurs de ces design tokens à utiliser au sein du Github ci-dessous :
+Respecter le RCN implique l’utilisation de ces property tokens.
 
-• [Accès au Github UXQWAIFE – Tokens](https://github.com/UXQWAIFE/RCN-Tokens)
-
-Vous trouverez l’exhausitivité des valeurs de ces design tokens au sein d’un fichier excel ainsi que les variables au format CSS.
-
+La fiche design tokens sera complétée prochainement. En cas de difficulté dans l’utilisation de ces tokens veuillez contacter l’Equipe UX et Qualité.
 
 ## Utilisation 
 
