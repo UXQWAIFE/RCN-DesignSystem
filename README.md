@@ -6,6 +6,12 @@ Respecter le RCN implique l’utilisation de ces property tokens.
 
 La fiche design tokens sera complétée prochainement. En cas de difficulté dans l’utilisation de ces tokens veuillez contacter l’Equipe UX et Qualité.
 
+## Roadmap
+
+- Additional browser support ![Static Badge](https://img.shields.io/badge/:Done-v0.1.0+)
+- Add more integrations
+
+
 ## Utilisation 
 
 Pour utiliser ces fichiers, vous n'avez pas besoin d'appeler chaque élément un à un. 
@@ -14,34 +20,34 @@ Il faut pour ça savoir sous quelle marque produit vous êtes : Chorus / Chorus 
 
 Ensuite il vous suffit de télécharger ce repo et de l'installer directement dans vos fichiers et ensuite d'intégrer dans la balise <head> la bonne ligne suivant votre marque produit : 
 
-### Chorus
+#### Chorus
 
 ```html
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Chorus.css"><!--CSS-->
-
+<!-- OR -->
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Chorus.css"><!--SCSS-->
 ```
 
-### Chorus Pro
+#### Chorus Pro
 
 ```html
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-ChorusPro.css"><!--CSS-->
-
-<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-ChorusPro.css">
+<!-- OR -->
+<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-ChorusPro.css"><!--SCSS-->
 ```
 
-### Piste
+#### Piste
 
 ```html
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Piste.css"><!--CSS-->
-
-<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Piste.css">
+<!-- OR -->
+<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Piste.css"><!--SCSS-->
 ```
 
-### Qualification
+#### Qualification
 
 ```html
 <link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css"><!--CSS-->
-
-<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css">
+<!-- OR -->
+<link rel="stylesheet" href="RCN-DesignSystem/assets/styles-Qualification.css"><!--SCSS-->
 ```
