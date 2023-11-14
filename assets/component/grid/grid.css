@@ -14,7 +14,7 @@
   grid-column-gap: var(--rcn-semantic-gap-horizontal-500);
   grid-template-rows: auto;
 }
-@media (max-width: 992px) {
+@media (max-width: 1247px) {
   .rcn-gridMargins {
     padding-right: var(--rcn-semantic-padding-horizontal-700);
     padding-left: var(--rcn-semantic-padding-horizontal-700);
