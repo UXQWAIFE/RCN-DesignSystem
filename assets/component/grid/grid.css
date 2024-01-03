@@ -3,7 +3,7 @@
   padding-left: var(--rcn-semantic-padding-horizontal-900);
 }
 
-.rcn-gridMargins--menu {
+.rcn-gridMargins--mainNav {
   padding-right: var(--rcn-semantic-padding-horizontal-900);
   padding-left: var(--rcn-semantic-padding-horizontal-800);
 }
@@ -20,7 +20,7 @@
     padding-left: var(--rcn-semantic-padding-horizontal-700);
   }
 
-  .rcn-gridMargins--menu {
+  .rcn-gridMargins--mainNav {
     padding-right: var(--rcn-semantic-padding-horizontal-700);
     padding-left: var(--rcn-semantic-padding-horizontal-600);
   }
@@ -36,7 +36,7 @@
     padding-left: var(--rcn-semantic-padding-horizontal-600);
   }
 
-  .rcn-gridMargins--menu {
+  .rcn-gridMargins--mainNav {
     padding-right: var(--rcn-semantic-padding-horizontal-600);
     padding-left: var(--rcn-semantic-padding-horizontal-400);
   }
@@ -52,7 +52,7 @@
     padding-left: var(--rcn-semantic-padding-horizontal-500);
   }
 
-  .rcn-gridMargins--menu {
+  .rcn-gridMargins--mainNav {
     padding-right: var(--rcn-semantic-padding-horizontal-500);
     padding-left: var(--rcn-semantic-padding-horizontal-200);
   }
@@ -68,7 +68,7 @@
     padding-left: var(--rcn-semantic-padding-horizontal-500);
   }
 
-  .rcn-gridMargins--menu {
+  .rcn-gridMargins--mainNav {
     padding-right: var(--rcn-semantic-padding-horizontal-500);
     padding-left: var(--rcn-semantic-padding-horizontal-500);
   }
