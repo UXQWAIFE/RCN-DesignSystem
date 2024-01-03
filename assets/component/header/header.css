@@ -21,7 +21,7 @@
   order: 0;
 }
 
-.rcn-header__menu--portailDeServices {
+.rcn-header__mainNav--portailDeServices {
   color: var(--rcn-semantic-color-interaction-text_and_icon-default-primary);
   order: 1;
 }
@@ -36,7 +36,7 @@
   align-items: center;
 }
 
-.rcn-header__menu {
+.rcn-header__mainNav {
   order: 0;
   flex-grow: 1;
 }
