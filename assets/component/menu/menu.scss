@@ -24,7 +24,7 @@
     }
     &::after {
         position: absolute;
-        height: 0px;
+        height:0;
         left: $rcn-semantic-padding-horizontal-400;
         bottom: $rcn-semantic-padding-vertical-200;
         background-color: $rcn-semantic-color-interaction-background-default-standard;

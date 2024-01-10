@@ -61,7 +61,7 @@
       position: absolute;
       top: calc($rcn-semantic-width-accountMenu_avatar + ($rcn-semantic-padding-vertical-300 * 2) + 1px);
       width: 100%;
-      right: 0px;
+      right:0;
     &--hidden {
         display: none;
     }

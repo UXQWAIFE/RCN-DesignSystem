@@ -40,7 +40,7 @@
 --rcn-tabs__contentZone-border-bottom: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-interaction-border-default-standard);
 --rcn-tabs__contentZone-border-right: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-interaction-border-default-standard);
 --rcn-tabs__contentZone-border-left: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-interaction-border-default-standard);
---rcn-tabs__contentZone-if_hidden-height: 0px;
+--rcn-tabs__contentZone-if_hidden-height:0;
 --rcn-tabs--fullPage___rcn-tabs__contentZone-border-right: none;
 --rcn-tabs--fullPage___rcn-tabs__contentZone-border-left: none;
 --rcn-tabs--fullPage___rcn-tabs__contentZone-border-bottom: none;

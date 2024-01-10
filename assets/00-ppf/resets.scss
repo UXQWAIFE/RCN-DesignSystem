@@ -11,8 +11,8 @@
     src: url('Font/Font_Marianne/Marianne/fontes web/Marianne-Regular.woff');
 }
 
-body, p, button, input, option, select, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+body, p, button, input, option, select, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -96,7 +96,7 @@ table {
 fieldset {
     display: block;
     margin-inline-start: 0 ;
-    margin-inline-end: 0px;
+    margin-inline-end:0;
     border: none;
     padding-block-start: 0;
     padding-inline-end: 0;
@@ -132,4 +132,3 @@ option {
   clip: rect(0, 0, 0, 0); 
   border: 0;
 }
-

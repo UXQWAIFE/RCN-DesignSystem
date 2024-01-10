@@ -34,9 +34,9 @@
 }
 
 .rcn-inputFieldBloc__errorZone[hidden] {
-  height: 0px;
+  height:0;
   display: none;
-  width: 0px;
+  width:0;
 }
 
 .rcn-inputFieldBloc__successZone {
@@ -51,9 +51,9 @@
 }
 
 .rcn-inputFieldBloc__successZone[hidden] {
-  height: 0px;
+  height:0;
   display: none;
-  width: 0px;
+  width:0;
 }
 
 .rcn-inputField {
@@ -117,8 +117,8 @@
   color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
   border-top-left-radius: var(--rcn-semantic-borderradius-50);
   border-bottom-left-radius: var(--rcn-semantic-borderradius-50);
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
   padding: var(--rcn-semantic-padding-vertical-200) var(--rcn-semantic-padding-horizontal-200);
 }
 
@@ -161,7 +161,7 @@
 }
 
 .rcn-inputFieldBloc--as-Search {
-  margin-bottom: 0px;
+  margin-bottom:0;
 }
 
 .rcn-inputField__button--search::before {
@@ -364,7 +364,7 @@
 }
 
 .rcn-combobox__dropDownList[hidden] {
-  height: 0px;
+  height:0;
 }
 
 .rcn-combobox .rcn-fieldset--as-inputFieldBloc {

@@ -139,7 +139,7 @@
 }
 
 .rcn-buttonGroup__button {
-  border-radius: 0px;
+  border-radius:0;
   margin-right: -1px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .rcn-buttonGroup__button:last-of-type {
-  margin-right: 0px;
+  margin-right:0;
   border-top-right-radius: var(--rcn-semantic-borderradius-200);
   border-bottom-right-radius: var(--rcn-semantic-borderradius-200);
 }
