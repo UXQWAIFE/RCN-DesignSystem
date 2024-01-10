@@ -32,7 +32,7 @@ time, mark, audio, video {
 }
 
 body, legend {
-  font-family:$rcn-semantic-typography-fontfamily-text, Arial;
+  font-family:var(--rcn-semantic-typography-fontfamily-text, Arial);
   font-size:1rem;
   line-height: 1;
 }
@@ -61,7 +61,7 @@ pre {
 }
 
 b, strong {
-  font-weight: $rcn-semantic-typography-text-editorial-default-reset-fontweight; 
+  font-weight: var(--rcn-semantic-typography-text-editorial-default-reset-fontweight); 
 }
 
 sub, sup {
