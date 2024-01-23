@@ -78,9 +78,9 @@
 --rcn-stepper__list--horizontal-flex-direction: row;
 --rcn-stepper__list--horizontal-gap: var(--rcn-semantic-gap-horizontal-500);
 --rcn-stepper__list--horizontal-in_before-content: ;
---rcn-stepper__list--horizontal-in_before-width: calc(100% - ((100% - ((rcn-stepper-numberofsteps - 1) * var(--rcn-semantic-gap-horizontal-500))) / rcn-stepper-numberofsteps));
+--rcn-stepper__list--horizontal-in_before-width: calc(100% - ((100% - ((var(--rcn-stepper-numberofsteps) - 1) * var(--rcn-semantic-gap-horizontal-500))) / var(--rcn-stepper-numberofsteps)));
 --rcn-stepper__list--horizontal-in_before-height: var(--rcn-semantic-borderwidth-100);
---rcn-stepper__list--horizontal-in_before-left: calc((100% - ((rcn-stepper-numberofsteps - 1) * var(--rcn-semantic-gap-horizontal-500))) / (2 *  rcn-stepper-numberofsteps));
+--rcn-stepper__list--horizontal-in_before-left: calc((100% - ((var--(rcn-stepper-numberofsteps) - 1) * var(--rcn-semantic-gap-horizontal-500))) / (2 *  var(--rcn-stepper-numberofsteps)));
 --rcn-stepper__list--horizontal-in_before-background-color: var(--rcn-semantic-color-static-border-divider_strong);
 --rcn-stepper__list--horizontal-in_before-position: absolute;
 --rcn-stepper__list--horizontal-in_before-top: calc((var(--rcn-semantic-height-stepper_stepcircle) / 2) + var(--rcn-semantic-borderwidth-100));
@@ -89,7 +89,7 @@
 --rcn-stepper__list--horizontal___rcn-stepper__step-flex-direction: column;
 --rcn-stepper__list--horizontal___rcn-stepper__step-align-items: center;
 --rcn-stepper__list--horizontal___rcn-stepper__step-gap: var(--rcn-semantic-gap-vertical-300);
---rcn-stepper__list--horizontal___rcn-stepper__step-flex: 1 10;
+--rcn-stepper__list--horizontal___rcn-stepper__step-flex: 1 1 0;
 --rcn-stepper__list--horizontal___rcn-stepper__step-text-align: center;
 
 }
