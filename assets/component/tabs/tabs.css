@@ -64,7 +64,7 @@
 }
 
 .rcn-tabs__contentZone[hidden] {
-  height:0;
+  height: 0;
 }
 
 .rcn-tabs--fullPage .rcn-tabs__contentZone {

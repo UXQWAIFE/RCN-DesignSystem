@@ -58,3 +58,17 @@ Ensuite il vous suffit de télécharger ce repo et de l'installer directement da
 | Lot 4     | ![Static Badge]( https://img.shields.io/badge/Done-8acdb0.svg) | ![Static Badge]( https://img.shields.io/badge/v0.4.2+-grey.svg)  | **Composants :** Menu / Pagination / Stepper |
 | Lot 5     | ![Static Badge]( https://img.shields.io/badge/Done-8acdb0.svg) | ![Static Badge]( https://img.shields.io/badge/v0.5.1+-grey.svg)  | **Composants :** ConnexionModule / FooterLanguageAndVersionBanner / formTemplate |
 | Lot 6     | ![Static Badge]( https://img.shields.io/badge/Pending-abb8df.svg) |   | **Composants :** DataTable |
+
+
+## Changelog
+
+### 0.5.7 - Correctifs et ajout d'icone : 
+
+- Retrait des valeurs en ```0px``` > ```0```
+  - Composant impacté : Accordions, Button, ConnexionModule, footerlanguageandversionbanner, forminputs, Menu, Modal, Tabs, 
+- Header : 
+  - Changement de token : ```--rcn-semantic-typography-textdecoration-mainNav_entry``` > ```--rcn-semantic-typography-textdecoration-menu_entry```
+  - Changement de nom de class : ```.rcn-mainNav__entry[aria-expanded='true'] .rcn-mainNav__submenuIcon``` > ```.rcn-mainNav__entry[aria-expanded='true'] .rcn-menu__submenuIcon```
+- Typography :  
+  - changement du semantic > ```--rcn-semantic-typography-lineheight-body-editorial``` en ```--rcn-semantic-typography-lineheight-heading```
+  - Ajout de : ```text-transform: var(--rcn-semantic-typography-texttransform-text);```

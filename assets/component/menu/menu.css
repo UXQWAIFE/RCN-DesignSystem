@@ -14,7 +14,7 @@
   align-items: baseline;
   gap: var(--rcn-semantic-gap-horizontal-200);
   color: var(--rcn-semantic-color-interaction-text_and_icon-default-onprimary);
-  text-decoration: var(--rcn-semantic-typography-textdecoration-mainNav_entry);
+  text-decoration: var(--rcn-semantic-typography-textdecoration-menu_entry);
   line-height: var(--rcn-semantic-typography-lineheight-body-component);
   padding: var(--rcn-semantic-padding-vertical-400) var(--rcn-semantic-padding-horizontal-400);
 }
@@ -25,7 +25,7 @@
 
 .rcn-mainNav__entry::after {
   position: absolute;
-  height:0;
+  height: 0;
   left: var(--rcn-semantic-padding-horizontal-400);
   bottom: var(--rcn-semantic-padding-vertical-200);
   background-color: var(--rcn-semantic-color-interaction-background-default-standard);
@@ -50,7 +50,7 @@
   content: var(--rcn-semantic-typography-content-icon-expand_vertical);
 }
 
-.rcn-mainNav__entry[aria-expanded='true'] .rcn-mainNav__submenuIcon {
+.rcn-mainNav__entry[aria-expanded='true'] .rcn-menu__submenuIcon {
   content: var(--rcn-semantic-typography-content-icon-collapse_vertical);
 }
 

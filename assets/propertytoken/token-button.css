@@ -70,11 +70,11 @@
 --rcn-buttonGroup-flex-direction: row;
 --rcn-buttonGroup-flex-wrap: nowrap;
 --rcn-buttonGroup-align-items: center;
---rcn-buttonGroup__button-border-radius:0;
+--rcn-buttonGroup__button-border-radius: 0;
 --rcn-buttonGroup__button-margin-right: -1px;
 --rcn-buttonGroup__button-on_first-border-top-left-radius: var(--rcn-semantic-borderradius-200);
 --rcn-buttonGroup__button-on_first-border-bottom-left-radius: var(--rcn-semantic-borderradius-200);
---rcn-buttonGroup__button-on_last-margin-right:0;
+--rcn-buttonGroup__button-on_last-margin-right: 0;
 --rcn-buttonGroup__button-on_last-border-top-right-radius: var(--rcn-semantic-borderradius-200);
 --rcn-buttonGroup__button-on_last-border-bottom-right-radius: var(--rcn-semantic-borderradius-200);
 --rcn-buttonGroup__button-if_selected-background-color: var(--rcn-semantic-color-interaction-background-default-buttongroup_button_selected);

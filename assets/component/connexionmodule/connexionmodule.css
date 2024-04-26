@@ -71,7 +71,7 @@
   position: absolute;
   top: calc(var(--rcn-semantic-width-accountMenu_avatar) + (var(--rcn-semantic-padding-vertical-300) * 2) + 1px);
   width: 100%;
-  right:0;
+  right: 0;
 }
 
 .rcn-accountMenu__dropdownMenu[aria-hidden='true'] {
