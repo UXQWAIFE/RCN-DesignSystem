@@ -23,9 +23,8 @@
 
 .rcn-h1 {
     font-size: $rcn-semantic-typography-fontsize-h1;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -34,9 +33,8 @@
 
 .rcn-h1bis {
     font-size: $rcn-semantic-typography-fontsize-h_alt-xs;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -45,9 +43,8 @@
 
 .rcn-h2 {
     font-size: $rcn-semantic-typography-fontsize-h2;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -56,9 +53,8 @@
 
 .rcn-h3 {
     font-size: $rcn-semantic-typography-fontsize-h3;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -67,9 +63,8 @@
 
 .rcn-h4 {
     font-size: $rcn-semantic-typography-fontsize-h4;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -78,9 +73,8 @@
 
 .rcn-h5 {
     font-size: $rcn-semantic-typography-fontsize-h5;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
-    text-transform: $rcn-semantic-typography-texttransform-text;
   &--editorial {
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
@@ -89,10 +83,9 @@
 
 .rcn-h6 {
     font-size: $rcn-semantic-typography-fontsize-h6;
-    line-height: $rcn-semantic-typography-lineheight-heading;
+    line-height: $rcn-semantic-typography-lineheight-body-editorial;
     font-weight: $rcn-semantic-typography-fontweight-heading;
   &--editorial {
-      text-transform: $rcn-semantic-typography-texttransform-h6;
       line-height: $rcn-semantic-typography-lineheight-heading;
       margin-bottom: $rcn-semantic-margin-vertical-title;
   }

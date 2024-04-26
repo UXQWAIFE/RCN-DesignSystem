@@ -55,7 +55,7 @@
       border-left: $rcn-semantic-borderwidth-100 solid $rcn-semantic-color-interaction-border-default-standard;
   }
   &__contentZone[hidden] {
-      height: 0;
+      height:0;
   }
   &--fullPage {
     .rcn-tabs {

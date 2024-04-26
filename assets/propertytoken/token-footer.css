@@ -66,7 +66,7 @@
 --rcn-footer__mandatoryLegalLinks-flex-direction: row;
 --rcn-footer__mandatoryLegalLinks-justify-content: flex-start;
 --rcn-footer__mandatoryLegalLinks-border-top: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-static-border-footer_element_divider);
---rcn-footer__mandatoryLegalLinks-padding: var(--rcn-semantic-padding-vertical-400);
+--rcn-footer__mandatoryLegalLinks-padding: var(--rcn-semantic-padding-vertical-400) 0;
 --rcn-footer__mandatoryLegalLinks-gap: var(--rcn-semantic-gap-horizontal-300);
 --rcn-footer__mendatoryLegalLink-padding-right: var(--rcn-semantic-padding-horizontal-300);
 --rcn-footer__mendatoryLegalLink-border-right: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-static-border-footer_element_divider);
@@ -75,11 +75,11 @@
 --rcn-footer__mendatoryLegalLink-if_hover-color: var(--rcn-semantic-color-static-text_and_icon-dsfr_light);
 --rcn-footer__mendatoryLegalLink-if_hover-text-decoration: underline;
 --rcn-footer__licenseNotice-order: 3;
---rcn-footer__licenseNotice-padding: var(--rcn-semantic-padding-vertical-400);
+--rcn-footer__licenseNotice-padding: var(--rcn-semantic-padding-vertical-400) 0;
 --rcn-footer__partnersBanner-order: 1;
 --rcn-footer__partnersBanner-display: flex;
 --rcn-footer__partnersBanner-flex-direction: column;
---rcn-footer__partnersBanner-padding: var(--rcn-semantic-padding-vertical-400);
+--rcn-footer__partnersBanner-padding: var(--rcn-semantic-padding-vertical-400) 0;
 --rcn-footer__partnersBanner-border-top: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-static-border-footer_element_divider);
 --rcn-footer__partnersBanner-gap: var(--rcn-semantic-gap-vertical-400);
 --rcn-footer__partnersBanner-color: var(--rcn-semantic-color-static-text_and_icon-dsfr_medium);

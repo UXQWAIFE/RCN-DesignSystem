@@ -19,17 +19,17 @@
 --rcn-inputFieldBloc__errorZone-gap: var(--rcn-semantic-gap-horizontal-200);
 --rcn-inputFieldBloc__errorZone-color: var(--rcn-semantic-color-feedback-text_and_icon-error);
 --rcn-inputFieldBloc__errorIcon-in_before-content: var(--rcn-semantic-typography-content-icon-alert);
---rcn-inputFieldBloc__errorZone-if_hidden-height: 0;
+--rcn-inputFieldBloc__errorZone-if_hidden-height:0;
 --rcn-inputFieldBloc__errorZone-if_hidden-display: none;
---rcn-inputFieldBloc__errorZone-if_hidden-width: 0;
+--rcn-inputFieldBloc__errorZone-if_hidden-width:0;
 --rcn-inputFieldBloc__successZone-display: flex;
 --rcn-inputFieldBloc__successZone-flex-direction: row;
 --rcn-inputFieldBloc__successZone-gap: var(--rcn-semantic-gap-horizontal-200);
 --rcn-inputFieldBloc__successZone-color: var(--rcn-semantic-color-feedback-text_and_icon-success);
 --rcn-inputFieldBloc__successIcon-in_before-content: var(--rcn-semantic-typography-content-icon-success);
---rcn-inputFieldBloc__successZone-if_hidden-height: 0;
+--rcn-inputFieldBloc__successZone-if_hidden-height:0;
 --rcn-inputFieldBloc__successZone-if_hidden-display: none;
---rcn-inputFieldBloc__successZone-if_hidden-width: 0;
+--rcn-inputFieldBloc__successZone-if_hidden-width:0;
 --rcn-inputField-display: flex;
 --rcn-inputField-flex-direction: row;
 --rcn-inputField-border: var(--rcn-semantic-borderwidth-100) solid var(--rcn-semantic-color-interaction-border-default-standard);
@@ -60,8 +60,8 @@
 --rcn-inputField__unit-color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
 --rcn-inputField__unit-border-top-left-radius: var(--rcn-semantic-borderradius-50);
 --rcn-inputField__unit-border-bottom-left-radius: var(--rcn-semantic-borderradius-50);
---rcn-inputField__unit-border-top-right-radius: 0;
---rcn-inputField__unit-border-bottom-right-radius: 0;
+--rcn-inputField__unit-border-top-right-radius:0;
+--rcn-inputField__unit-border-bottom-right-radius:0;
 --rcn-inputField__unit-padding: var(--rcn-semantic-padding-vertical-200) var(--rcn-semantic-padding-horizontal-200);
 --rcn-inputField__option-if_checked-color: var(--rcn-semantic-color-interaction-text_and_icon-default-selected);
 --rcn-inputField__option-if_checked-font-weight: var(--rcn-semantic-typography-fontweight-body-component-selected);
@@ -80,7 +80,7 @@
 --rcn-inputField__buttonSeparator-order: 4;
 --rcn-inputField__button--hidePassword-in_before-content: var(--rcn-semantic-typography-content-icon-hide);
 --rcn-inputField__button--showPassword-in_before-content: var(--rcn-semantic-typography-content-icon-show);
---rcn-inputFieldBloc--as-Search-margin-bottom: 0;
+--rcn-inputFieldBloc--as-Search-margin-bottom:0;
 --rcn-inputField__button--search-in_before-content: var(--rcn-semantic-typography-content-icon-search);
 --rcn-inputField__button--largeSearch-display: flex;
 --rcn-inputField__button--largeSearch-flex-direction: row;
@@ -127,7 +127,6 @@
 --rcn-fieldset-align-items: stretch;
 --rcn-fieldset__legend-margin-bottom: unset;
 --rcn-fieldset__legend-font-weight: var(--rcn-semantic-typography-fontweight-label);
---rcn-fieldset__legend-padding: 0 var(--rcn-semantic-padding-horizontal-200);
 --rcn-fieldset--as-inputFieldBloc-display: flex;
 --rcn-fieldset--as-inputFieldBloc-flex-direction: column;
 --rcn-fieldset--as-inputFieldBloc-align-items: stretch;
@@ -188,7 +187,7 @@
 --rcn-combobox__dropDownList-padding: var(--rcn-semantic-padding-vertical-200) var(--rcn-semantic-padding-horizontal-200);
 --rcn-combobox__dropDownList-gap: var(--rcn-semantic-gap-vertical-200);
 --rcn-combobox__dropDownList-background-color: var(--rcn-semantic-color-interaction-background-default-standard);
---rcn-combobox__dropDownList-if_hidden-height: 0;
+--rcn-combobox__dropDownList-if_hidden-height:0;
 --rcn-combobox___rcn-fieldset--as-inputFieldBloc-margin-bottom: unset;
 
 }

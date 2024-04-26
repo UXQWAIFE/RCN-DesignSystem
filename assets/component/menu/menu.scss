@@ -1,4 +1,4 @@
-.rcn-mainNav {
+.rcn-menu {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@
     }
     &::after {
         position: absolute;
-        height: 0;
+        height:0;
         left: $rcn-semantic-padding-horizontal-400;
         bottom: $rcn-semantic-padding-vertical-200;
         background-color: $rcn-semantic-color-interaction-background-default-standard;

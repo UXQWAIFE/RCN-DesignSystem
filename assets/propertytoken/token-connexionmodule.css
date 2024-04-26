@@ -41,7 +41,7 @@
 --rcn-accountMenu__dropdownMenu-position: absolute;
 --rcn-accountMenu__dropdownMenu-top: calc(var(--rcn-semantic-width-accountMenu_avatar) + (var(--rcn-semantic-padding-vertical-300) * 2) + 1px);
 --rcn-accountMenu__dropdownMenu-width: 100%;
---rcn-accountMenu__dropdownMenu-right: 0;
+--rcn-accountMenu__dropdownMenu-right:0;
 --rcn-accountMenu__dropdownMenu-if_hidden-true-display: none;
 --rcn-accountMenu__dropdownMenu--hidden-display: none;
 --rcn-accountMenu__dropdownItem-display: block;

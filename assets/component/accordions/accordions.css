@@ -52,6 +52,6 @@
 }
 
 .rcn-accordions__content[hidden] {
-  height: 0 ;
+  height: 0px ;
 }
 

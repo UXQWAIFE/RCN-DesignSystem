@@ -40,9 +40,9 @@
     }
   }
   &__errorZone[hidden] {
-      height: 0;
+      height:0;
       display: none;
-      width: 0;
+      width:0;
   }
   &__successZone {
       display: flex;
@@ -56,12 +56,12 @@
     }
   }
   &__successZone[hidden] {
-      height: 0;
+      height:0;
       display: none;
-      width: 0;
+      width:0;
   }
   &--as-Search {
-      margin-bottom: 0;
+      margin-bottom:0;
   }
   &--checkboxOrRadio {
       flex-direction: row;
@@ -176,8 +176,8 @@
       color: $rcn-semantic-color-interaction-text_and_icon-disabled;
       border-top-left-radius: $rcn-semantic-borderradius-50;
       border-bottom-left-radius: $rcn-semantic-borderradius-50;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
+      border-top-right-radius:0;
+      border-bottom-right-radius:0;
       padding: $rcn-semantic-padding-vertical-200 $rcn-semantic-padding-horizontal-200;
   }
   &__option {
@@ -290,7 +290,6 @@
   &__legend {
       margin-bottom: unset;
       font-weight: $rcn-semantic-typography-fontweight-label;
-      padding: 0 $rcn-semantic-padding-horizontal-200;
   }
   &--as-inputFieldBloc {
       display: flex;
@@ -336,7 +335,7 @@
       background-color: $rcn-semantic-color-interaction-background-default-standard;
   }
   &__dropDownList[hidden] {
-      height: 0;
+      height:0;
   }
   .rcn-fieldset {
     &--as-inputFieldBloc {
