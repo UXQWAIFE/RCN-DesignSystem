@@ -80,7 +80,7 @@
 --rcn-stepper__list--horizontal-in_before-content: ;
 --rcn-stepper__list--horizontal-in_before-width: calc(100% - ((100% - ((var(--rcn-stepper-numberofsteps) - 1) * var(--rcn-semantic-gap-horizontal-500))) / var(--rcn-stepper-numberofsteps)));
 --rcn-stepper__list--horizontal-in_before-height: var(--rcn-semantic-borderwidth-100);
---rcn-stepper__list--horizontal-in_before-left: calc((100% - ((var--(rcn-stepper-numberofsteps) - 1) * var(--rcn-semantic-gap-horizontal-500))) / (2 *  var(--rcn-stepper-numberofsteps)));
+--rcn-stepper__list--horizontal-in_before-left: calc((100% - ((var(--rcn-stepper-numberofsteps) - 1) * var(--rcn-semantic-gap-horizontal-500))) / (2 *  var(--rcn-stepper-numberofsteps)));
 --rcn-stepper__list--horizontal-in_before-background-color: var(--rcn-semantic-color-static-border-divider_strong);
 --rcn-stepper__list--horizontal-in_before-position: absolute;
 --rcn-stepper__list--horizontal-in_before-top: calc((var(--rcn-semantic-height-stepper_stepcircle) / 2) + var(--rcn-semantic-borderwidth-100));
