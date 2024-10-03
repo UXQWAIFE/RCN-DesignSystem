@@ -27,6 +27,15 @@
 --rcn-button--secondary-if_disabled-border-color: var(--rcn-semantic-color-interaction-border-disabled);
 --rcn-button--secondary-if_disabled-background-color: var(--rcn-semantic-color-interaction-background-disabled-button_secondary);
 --rcn-button--secondary-if_disabled-color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
+--rcn-button--tertiary-color: var(--rcn-semantic-color-interaction-text_and_icon-hover-onstandard);
+--rcn-button--tertiary-background-color: var(--rcn-semantic-color-interaction-background-default-standard);
+--rcn-button--tertiary-border-color: var(--rcn-semantic-color-static-border-transparent);
+--rcn-button--tertiary-if_hover-color: var(--rcn-semantic-color-interaction-text_and_icon-hover-onstandard);
+--rcn-button--tertiary-if_hover-background-color: var(--rcn-semantic-color-interaction-background-hover-standard);
+--rcn-button--tertiary-if_hover-border-color: var(--rcn-semantic-color-interaction-background-hover-standard);
+--rcn-button--tertiary-if_disabled-color: var(--rcn-semantic-color-interaction-text_and_icon-disabled);
+--rcn-button--tertiary-if_disabled-background-color: var(--rcn-semantic-color-static-background-transparent);
+--rcn-button--tertiary-if_disabled-border-color: var(--rcn-semantic-color-interaction-background-transparent);
 --rcn-iconButton-color: var(--rcn-semantic-color-interaction-text_and_icon-default-onstandard);
 --rcn-iconButton-line-height: var(--rcn-semantic-typography-lineheight-body-component);
 --rcn-iconButton-background-color: var(--rcn-semantic-color-interaction-background-transparent);
