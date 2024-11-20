@@ -1,0 +1,15 @@
+:root{
+--rcn-emptyState-display: flex;
+--rcn-emptyState-align-items: center;
+--rcn-emptyState-text-align: center;
+--rcn-emptyState-flex-direction: column;
+--rcn-emptyState-gap: var(--rcn-semantic-gap-vertical-500);
+--rcn-emptyStates__primaryActions-display: flex;
+--rcn-emptyStates__primaryActions-flex-direction: row;
+--rcn-emptyStates__primaryActions-gap: var(--rcn-semantic-gap-horizontal-300);
+--rcn-emptyStates__primaryActions-flex-wrap: wrap;
+--rcn-emptyStates__primaryActions-margin-top: var(--rcn-semantic-margin-vertical-section);
+--rcn-emptyStates__secondaryActions-display: flex;
+--rcn-emptyStates__secondaryActions-flex-direction: row;
+--rcn-emptyStates__secondaryActions-gap: var(--rcn-semantic-gap-horizontal-300);
+}
